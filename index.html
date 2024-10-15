@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos sobre la Prevención del Dengue</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza el archivo CSS -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo/logoinstitutogonzalescatan.png" alt="Logo Instituto Gonzales Catan" class="logo">
+            <h1>Fotos Prevención del Dengue</h1>
+        </header>
+
+        <!-- Secciones para cada clase -->
+        <div class="class-section">
+            <h2>1°B</h2>
+            <div class="upload-container" id="container-1B">
+                <img src="img/1B/" alt="Imagen 1°B" onclick="openModal('img/4B/imagen1b_1.jpg')">
+                <img src="img/1B/" alt="Imagen 1°B" onclick="openModal('img/4B/imagen1b_2.jpg')">
+                <img src="img/1B/" alt="Imagen 1°B" onclick="openModal('img/4B/imagen1b_3.jpg')">
+                <img src="img/1B/" alt="Imagen 1°B" onclick="openModal('img/4B/imagen1b_4.jpg')">
+            </div>
+        </div>
+
+        <div class="class-section">
+            <h2>2°B</h2>
+            <div class="upload-container" id="container-2B">
+                <img src="img/2B/" alt="Imagen 2°B" onclick="openModal('img/4B/imagen2b_1.jpg')">
+                <img src="img/2B/" alt="Imagen 2°B" onclick="openModal('img/4B/imagen2b_2.jpg')">
+                <img src="img/2B/" alt="Imagen 2°B" onclick="openModal('img/4B/imagen2b_3.jpg')">
+                <img src="img/2B/" alt="Imagen 2°B" onclick="openModal('img/4B/imagen2b_4.jpg')">
+            </div>
+        </div>
+
+        <div class="class-section">
+            <h2>3°B</h2>
+            <div class="upload-container" id="container-3B">
+                <img src="img/3B/" alt="Imagen 3°B" onclick="openModal('img/3B/imagen3b_1.jpg')">
+                <img src="img/3B/" alt="Imagen 3°B" onclick="openModal('img/3B/imagen3b_2.jpg')">
+                <img src="img/3B/" alt="Imagen 3°B" onclick="openModal('img/3B/imagen3b_3.jpg')">
+                <img src="img/3B/" alt="Imagen 3°B" onclick="openModal('img/3B/imagen3b_4.jpg')">
+                <img src="img/3B/" alt="Imagen 3°B" onclick="openModal('img/3B/imagen3b_5.jpg')">
+            </div>
+        </div>
+
+        <div class="class-section">
+            <h2>4°B</h2>
+            <div class="upload-container" id="container-4B">
+                <img src="img/4B/" alt="Imagen 4°B" onclick="openModal('img/4B/imagen4b_1.jpg')">
+                <img src="img/4B/" alt="Imagen 4°B" onclick="openModal('img/4B/imagen4b_2.jpg')">
+                <img src="img/4B/" alt="Imagen 4°B" onclick="openModal('img/4B/imagen4b_3.jpg')">
+                <img src="img/4B/" alt="Imagen 4°B" onclick="openModal('img/4B/imagen4b_4.jpg')">
+            </div>
+        </div>
+
+        <div class="class-section">
+            <h2>5°B</h2>
+            <div class="upload-container" id="container-5B">
+                <img src="img/5B/" alt="Imagen 5°B" onclick="openModal('img/5B/imagen5b_1.jpg')">
+                <img src="img/5B/" alt="Imagen 5°B" onclick="openModal('img/5B/imagen5b_2.jpg')">
+                <img src="img/5B/" alt="Imagen 5°B" onclick="openModal('img/5B/imagen5b_3.jpg')">
+                <img src="img/5B/" alt="Imagen 5°B" onclick="openModal('img/5B/imagen5b_4.jpg')">
+                <img src="img/5B/" alt="Imagen 5°B" onclick="openModal('img/5B/imagen5b_5.jpg')">
+            </div>
+        </div>
+
+        <div class="class-section">
+            <h2>6°B</h2>
+            <div class="upload-container" id="container-6B">
+                <img src="img/6B/imagen6b_1.jpg" alt="Imagen 6°B" onclick="openModal('img/6B/imagen6b_1.jpg')">
+                <img src="img/6B/imagen6b_2.jpg" alt="Imagen 6°B" onclick="openModal('img/6B/imagen6b_2.jpg')">
+                <img src="img/6B/imagen6b_3.jpg" alt="Imagen 6°B" onclick="openModal('img/6B/imagen6b_1.jpg')">
+                <img src="img/6B/imagen6b_4.jpg" alt="Imagen 6°B" onclick="openModal('img/6B/imagen6b_2.jpg')">
+                <img src="img/6B/imagen6b_5.jpg" alt="Imagen 6°B" onclick="openModal('img/6B/imagen6b_2.jpg')">
+            </div>
+        </div>
+    </div>
+
+    <div class="mosquito-container">
+        <img src="logo/mosquitocruzroja.png" alt="Mosquito muerto" class="mosquito-img">
+    </div>
+
+    <!-- Modal para la imagen -->
+    <div id="imageModal" class="modal">
+        <span id="closeModal" class="close">&times;</span> <!-- Botón de cerrar -->
+        <img class="modal-content" id="modalImage">
+        <a class="prev" id="prev" onclick="prevImage()">&#10094;</a> <!-- Flecha de navegación anterior -->
+        <a class="next" id="next" onclick="nextImage()">&#10095;</a> <!-- Flecha de navegación siguiente -->
+    </div>
+
+    <script src="script.js"></script> <!-- Enlaza el archivo JavaScript -->
+    
+    <h5 style="text-align: center;">Página hecha por: Diego Campos 2°B</h5>
+</body>
+</html>
